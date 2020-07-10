@@ -1,0 +1,49 @@
+.comment{
+  padding-top: 0.8rem;
+  background-color: #f3f3f3;
+}
+/* 头部 */
+.comment-header{
+  width: 100vw;
+  height: 0.8rem;
+  position: fixed;
+  left:0rem;
+  top: 0;
+  background-color: #00a2ed;
+  z-index: 1000;
+}
+header span{
+  line-height: 0.8rem;
+  color: #ffffff;
+  margin: 0rem 0.3rem;
+}
+.right{
+  text-align:right;
+}
+/* 主体 */
+.noneimg{
+  width: 100%;
+}
+.noneimg img{
+  width: 100%;
+  height: 10.3rem;
+}
+/* 评论 */
+List.Item{
+  position: relative;
+}
+.comment-avatar{
+  width: 1rem;
+  height: 1.2rem;
+}
+.comment-name{ 
+  position: absolute;
+  top: 0.1rem;
+  left: 1rem;
+  font-weight: bold;
+}
+.comment-content{
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+}

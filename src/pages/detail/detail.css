@@ -1,0 +1,56 @@
+/* ---头部---- */
+.detail{
+    padding-top: 0.8rem;
+    background-color: #f3f3f3;
+}
+.detail-header{
+    width: 100vw;
+    height: 0.8rem;
+    position: fixed;
+    left:0rem;
+    top: 0;
+    background-color: #00a2ed;
+    z-index: 1000;
+}
+header span{
+    line-height: 0.8rem;
+    color: #ffffff;
+    margin: 0rem 0.3rem;
+}
+.bigimg{
+    width: 100%;
+    height: 3rem;
+}
+.bigimg img{
+    width: 100%;
+    height: 6rem;
+}
+/* ---门板---- */
+.mask{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.con{
+    width: 80%;
+    background: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.con img{
+    width: 100%;
+}
+.iconfont icon-dianzan{
+    font-size: 0.15rem;
+}
+.red{
+    color: rgb(243, 85, 22);
+}
+.redgood{
+    color: rgb(253, 216, 2);
+}
